@@ -1,11 +1,12 @@
 import React from 'react';
-import Check from './components/Check';
+import Form from './components/Form';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Check />
+      <h1>form</h1>
+      <Form />
     </div>
   );
 }
